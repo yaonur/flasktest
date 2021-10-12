@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import db_connect as db
 
 app = Flask(__name__)
-app.debug = True
+# app.debug = True
 
 
 @app.teardown_appcontext
